@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Currency Converter</title>
+  </head>
+  <body class="bg-dark" style="margin-top : 70px">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center text-white display-4 mb-3">Currency Converter</h1>
+        </div>
+      </div>
+      <div class="row text-white text-center">
+        <div class="col">
+          <div id="msg" class="mb-3"></div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-6">
+          <form>
+            <input type="number" id="currencyinput" class="form-control" value=0>
+          </form>
+        </div>
+        <div class="col-6">
+          <select id="currencyselector1" class="custom-select">
+            <option value="select">--Select Currency--</option>
+            <option value="ir">Indian Rupee</option>
+            <option value="usd">USD</option>
+            <option value="euro">Euro</option>
+          </select>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-6">
+          <div id="outputCurrency" class="bg-white form-control"></div>
+        </div>
+        <div class="col-6">
+          <select id="currencyselector2" class="custom-select">
+            <option value="select">--Select Currency--</option>
+            <option value="ir">Indian Rupee</option>
+            <option value="usd">USD</option>
+            <option value="euro">Euro</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js" charset="utf-8"></script>
+</html>
